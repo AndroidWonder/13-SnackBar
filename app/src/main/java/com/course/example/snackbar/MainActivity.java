@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 snackbar.setAction("Undo", new UndoListener());
 
                 View snackbarView = snackbar.getView();
-                TextView textView = snackbarView.findViewById(R.id.snackbar_text);
+                TextView textView = snackbarView.findViewById(com.google.android.material.R.id.snackbar_text);
                 // set no of text line
                 textView.setMaxLines(2);
                 //set text color
